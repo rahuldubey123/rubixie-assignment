@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+nav {
+  background-color: black;
+  padding: 10px 20px;
+  /* display: flex; */
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: end;
+  align-items: center;
+  margin-top: 30px !important;
+  font-size: 12px;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+.image {
+  background-image: url(./components/library.jpg);
+  background-size: cover;
+  height: 70vh;
+  /* opacity: 0.5; */
+  color: white;
+  font-weight: 600;
+  margin-top: 5px;
+
+}
+
+.techteens {
+
+  position: absolute;
+  bottom: 130px;
+}
+
+.t-teens {
+  width: 50%;
+  display: block;
+}
+
+.we-text {
+  margin: 50px 10px;
+}
+
+.we-img {
+  margin: 98px 10px 50px 10px;
+}
+
+.line {
+  width: 150px;
+  height: 3px;
+  background-color: rgb(220, 20, 130);
+}
+
+.started {
+  height: 140px;
+  background-color: rgb(220, 20, 130);
+  padding: 15px;
+  color: white;
+}
+
+.initiative {
+  background-color: rgb(189, 189, 189);
+}
+
+.init-1 {
+  padding: 40px 0;
+}
+
+.cards {
+  background: transparent;
+  border: none;
+  margin-top: 50px;
+}
+
+.card1 {
+  width: 112%;
+  height: 270px;
+  background-image: linear-gradient(to top, #ff000000, rgb(227 227 227));
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 19px -20px 20px #877a7a;
+  z-index: 999;
+}
+
+.card2 {
+  width: 112%;
+  height: 270px;
+  /* background-color: rgb(223, 226, 226); */
+  background-image: linear-gradient(to bottom, #ff000000, rgb(227 227 227));
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 20px 16px 20px #877a7a;
+  z-index: 9;
+}
+
+.head {
+  background-color: #1d2d60;
+  height: 35px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.foot {
+  background-color: black;
+  height: 35px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.c-ic {
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.c-ic p {
+  text-align: center;
+}
+
+.number {
+  width: 50px;
+  height: 50px;
+  background-color: #d7d2d2;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -18px;
+  left: 90px;
+}
+
+.number1 {
+  width: 50px;
+  height: 50px;
+  background-color: #d7d2d2;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -18px;
+  left: 90px;
+}
+
+.ui-define {
+  /* background-color: rgb(243, 240, 243); */
+  /* margin-left: 25%;
+  width: 50%; */
+  padding: 10px 30px;
+  /* margin-top: 5%; */
+  color: green;
+  text-align: center;
+}
+
+.get {
+  height: 240px;
+  border-right: 1px solid;
+  padding: 50px 10px;
+
+}
+
+.get {
+  text-align: center;
+}
+
+.get p {
+  text-align: center;
+}
+
+.register {
+  margin: 50px 0;
+}
+
+.regdeg {
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  background-color: #1d2d60 !important;
+  border: none !important;
+}
+
+.footer {
+  background-color: #f1eeee;
+  padding: 50px 0;
+  font-size: small;
+}
+
+.footr p {
+  text-align: initial;
+  margin-bottom: 0;
+  color: rgb(161, 161, 161);
+}
+
+.footr i {
+  font-size: 20px;
+  color: rgb(36, 33, 197);
+  margin-left: 10px;
+}
+
+.footerbottom {
+  background-color: black;
+  color: rgb(161, 161, 161);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footerbottom p {
+  margin-top: none !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .techteens {
+
+    bottom: unset;
+  }
+
+  .card1,
+  .card2 {
+    width: 100%;
+  }
+
+  .started {
+    height: auto;
+  }
+
+  .get {
+    border-right: none;
+    border-bottom: 1px solid;
+  }
+
+  .form {
+    margin-top: 20px;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+
+}
